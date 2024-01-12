@@ -8,7 +8,7 @@ export default class LabelComponent extends Input {
       key: 'label',
       tableView: false,
       input: false,
-      defaultValue: 'Default Label Text',
+      defaultValue: 'Customize your label by updating the DefaultValue field in the Data tab',
     }, ...extend);
   }
 
@@ -26,12 +26,6 @@ export default class LabelComponent extends Input {
   get defaultSchema() {
     return _.omit(LabelComponent.schema(), ['tableView']);
   }
-
-//   get inputInfo() {
-//     const info = super.inputInfo;
-//     info.attr.type = 'label';
-//     return info;
-//   }
 
 render() {
 

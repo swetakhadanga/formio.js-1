@@ -1,12 +1,5 @@
 
-// export default {
-//     label: 'Label',
-//     type: 'label',
-//     input: true,
-//     key: 'customLabel',
-//   };
-
-  export default {
+export default {
     'input': false,
     'tableView': false,
     'labelText': 'Sample Label',
@@ -15,5 +8,5 @@
     'type': 'label',
     'tags': [],
     'isNew': false
-  };
+};
 
